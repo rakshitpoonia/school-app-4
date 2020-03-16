@@ -1,0 +1,64 @@
+.Heading{
+    border:solid;
+    background-color:cyan;
+    display:flex;
+    justify-content:space-evenly;
+}
+.Image{
+    border:solid;
+    background-color: #FF8BAD;
+    display:flex;
+    justify-content:space-evenly;
+    margin:25px;
+    padding:10px;
+}
+.news{
+    border:solid;
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#1EFF9B;
+    margin:25px;
+    padding:15px;
+}
+.admission{
+    border:solid;
+    background-color:#FD87C5;
+    margin:25px;
+    display:flex;
+    justify-content:space-evenly;
+    padding:15px;
+}
+
+.social{
+    border:solid;
+    display:flex;
+    justify-content:center;
+    background-color:#a9aeDf;
+}
+
+.Image p{
+    padding-top:50px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left:20px;
+}
+.social img{
+    padding-top:15px;
+}
+.Image a{
+    position:absolute;
+    top:50%;
+    left:50%;
+    right:5%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.Image:hover a{
+    opacity:1;
+}
+
+.Image:hover img{
+    opacity:0.15;
+}
+
